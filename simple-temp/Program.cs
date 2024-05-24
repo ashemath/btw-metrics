@@ -1,14 +1,13 @@
-﻿using SimpleTemp;
+﻿using LibreMonitor;
 
-namespace SimpleTemp{
-    class TestClass
+namespace BtwMetrics{
+    class MakeTextfileMetrics
     {
         static void Main(string[] args)
         {
-            // Display the number of command line arguments.
-            var test = new Simple();
-            test.Monitor();
-
+            LibreMonitor.Monitor _monitor = new LibreMonitor.Monitor();
+            Console.WriteLine(_monitor.Cpu());
+            //Console.ReadLine();
         }
     }
 }
