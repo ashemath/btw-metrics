@@ -1,0 +1,8 @@
+<service>
+  <id>textfile-metrics</id>
+  <name>textfile-metrics</name>
+  <description>This service generates textfile metrics.</description>
+  <executable>%BASE%/btw-metrics.exe</executable>
+  <arguments><arguments/>
+  <log mode="none"></log>
+</service>

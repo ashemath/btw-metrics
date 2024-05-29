@@ -61,7 +61,7 @@ namespace  LibreMonitor
             foreach (ISensor sensor in hardware.Sensors)
             {
                 if (sensor.Name == "CPU Package"){
-                    _metric = "ohm_cpu_celsius{{hardware=\""+CpuName+"\",sensor=\"CPU Package\"}} " + sensor.Value  +"\n";
+                    _metric = "ohm_cpu_celsius{hardware=\""+CpuName+"\",sensor=\"CPU Package\"} " + sensor.Value + "\n";
                     break;
                 }
             }
