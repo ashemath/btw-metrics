@@ -1,8 +1,0 @@
-<service>
-  <id>TextfileMetrics</id>
-  <name>Textfile Metrics for Windows Exporter</name>
-  <description>This service generates textfile metrics.</description>
-  <executable>%BASE%/btw-metrics.exe</executable>
-  <arguments></arguments>
-  <log mode="none"></log>
-</service>
