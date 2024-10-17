@@ -1,10 +1,10 @@
-# btw-exporter
+# btw-metrics
 Bill the Wizard's Proof of concept textfile exporter
 for Windows 10/11. The project features both the source code
 and an installer for a custom textfile metrics service
 based on LibreHardwareLib and WinSW.
 
-## btw-metrics
+## Try it out
 I created a unsigned innosetup installer for automating the
 installation of the proof of concept. Download or read about how 
 to build the project yourself at the links below:
