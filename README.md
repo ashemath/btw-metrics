@@ -11,7 +11,7 @@ to build the project yourself at the links below:
 
 [btw-metrics docs](btw-metrics/btw-metrics.md)
 
-[Download installer for btw-metrics.exe](btw-metrics.exe)
+[Download installer for btw-metrics](btw-metrics-setup.exe)
 
 ## About Bill the Wizard
 I am a System and Network Administrator that endeavors to be a programmer.
